@@ -1,15 +1,35 @@
-Objective:
+To display the value of an integer variable, we use the %d format specifier. Similarly:
 
-Write a program to find the sum of two numbers and then display the sum on output screen.
+%c is used to display character,
 
-Resources Required:
+%f for float variable,
 
-Hardware Requirement: Computer
+%s for string variable,
 
-Software Requirement: Dev C++ Software
+%If for double, and
 
-Theory:
+%x for hexadecimal variable.
 
-Addition is one of the four basic operations of arithmetic, with the others being subtraction, multiplication, and division. The addition of two numbers is the total amount of those quantities combined. For example, 3+2=5 (i.e., 3 added to 2 is equal to 5).
+Steps to check the sum of two numbers are as follows:
 
-printf() and scanf() functions are inbuilt library functions in C programming language which are available in the standard C library by default. The printf() function is used to display the output, and scanf() is used to take input from the user.
+In the program, assign some value to variable num1 and num2 at the time of declaration.
+
+Then declare sum variable.
+
+Add num1 and num2, and store the result in sum,
+
+Display sum on screen using printf() function.
+
+Algorithm:
+
+Step 1: Start
+
+Step 2: Declare variables num1, num2, and sum
+
+Step 3: Read values num1 and num2
+
+Step 4: Add num1 and num2 and assign the result to sum.
+
+Step 5: Display sum
+
+Step 6: Stop
