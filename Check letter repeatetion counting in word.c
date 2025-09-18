@@ -9,7 +9,7 @@ int b=0;
 printf("Enter word ");
 scanf("%s",&arr);
 
-printf("Enter word that you want to check  ");
+printf("Enter letter that you want to check  ");
 scanf("%c", &a);
 
 for (int i=0; arr[i] != '\0'; i++)
