@@ -2,8 +2,8 @@
 int main ()
 {
  char a;
- printf("Enter character to print");
- scanf("%c",&a);
+ printf("Enter symbol to print");
+ scanf(" %c",&a);
 
  int n ,m;
  printf("Enter number of rows");
@@ -22,5 +22,6 @@ for(int i=0;i<n;i++)
 }
   return 0;
  }
+
 
   
