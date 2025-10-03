@@ -41,7 +41,6 @@ int main()
 
     printf("Grade: %c\n", grade);
 
-    printf("AJAY YADAV,125113041");
-
     return 0;
 }
+
