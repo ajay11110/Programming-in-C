@@ -1,18 +1,28 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() 
+int main()
 
 {
-    float a,b;
+    float a, b;
 
     printf("ENTER RADIUS OF CIRCLE :");
-    scanf("%f",&a);
-    
-    b=3.14*a*a;
-    printf("AREA OF CIRCLE IS :%f \n",b);
-	
-	printf("MY NAME IS AJAY YADAV \n");
-	
-	return 0;
-	
+    scanf("%f", &a);
+
+    if (a < 0)
+    {
+        for (int i = 0; a < 0; i++)
+        {
+            printf("RADIUS CAN NOT BE NEGATIVE\n");
+            printf("ENTER RADIUS OF CIRCLE :");
+            scanf("%f", &a);
+        }
+    }
+
+   if (a >= 0)
+        {
+            b = 3.14 * a * a;
+            printf("AREA OF CIRCLE IS :%f \n", b);
+        }
+
+    return 0;
 }
