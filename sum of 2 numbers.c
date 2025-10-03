@@ -11,8 +11,7 @@ int main ()
 
     printf("THE SUM OF NUMBERS IS %d\n",sum);
 
-    printf("AJAY YADAV,125113041\n");
-
     return 0;
+
 
 }
