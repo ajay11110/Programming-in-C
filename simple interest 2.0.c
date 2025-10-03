@@ -47,9 +47,8 @@ int main()
     {
         d = a * b * c / 100;
         printf("SIMPLE INTEREST FOR %f YEARS IS %f \n", c, d);
-
-        printf("AJAY YADAV,125113041");
     }
 
     return 0;
 }
+
