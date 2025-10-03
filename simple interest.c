@@ -16,7 +16,6 @@ float a,b,c,d;
 	d=a*b*c/100;
 	printf("SIMPLE INTEREST FOR %f YEARS IS %f \n",c ,d);
 	
-	printf("MY NAME IS AJAY YADAV");
-
 	return 0;
 }
+
