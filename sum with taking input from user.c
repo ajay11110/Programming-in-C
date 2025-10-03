@@ -13,8 +13,7 @@ int main ()
     sum = num1 + num2;
     printf("THE SUM OF TWO NUMBERS IS : %d\n",sum);
 
-    printf("AJAY YADAV,125113041\n");
-
     return 0;
+
 
 }
