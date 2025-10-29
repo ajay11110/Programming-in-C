@@ -1,1 +1,1 @@
-Here are some c prgrammes made by me.
+Begging new journey in C language.
