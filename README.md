@@ -1,1 +1,1 @@
-Begging new journey in C language.
+Beginning new journey in C language.
